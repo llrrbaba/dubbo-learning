@@ -9,7 +9,7 @@
     <dubbo:application name="echo-provider"/>
 
     <!-- 使用本地zookeeper作为注册中心 -->
-    <dubbo:registry address="zookeeper://192.168.160.131:2181"/>
+    <dubbo:registry address="zookeeper://192.168.60.131:2181"/>
 
     <!-- 只用Dubbo协议并且指定监听端口 20880 -->
     <dubbo:protocol name="dubbo" port="20880"/>
