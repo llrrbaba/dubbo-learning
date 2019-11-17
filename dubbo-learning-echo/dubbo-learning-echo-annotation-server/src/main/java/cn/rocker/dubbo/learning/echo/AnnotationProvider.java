@@ -43,6 +43,8 @@ public class AnnotationProvider {
             RegistryConfig registryConfig = new RegistryConfig();
             // #2 使用zookeeper作为注册中心，同时给出注册中心ip和端口
             registryConfig.setProtocol("zookeeper");
+            // TODO czc zookeeper一个集群，多个节点，怎么设置？
+            // TODO czc zookeeper多个集群，多个节点，怎么设置？
             registryConfig.setAddress("192.168.60.131");
             registryConfig.setPort(2181);
             return registryConfig;
