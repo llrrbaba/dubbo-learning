@@ -17,6 +17,8 @@
         <module>dubbo-learning-echo-client</module>
         <module>dubbo-learning-echo-annotation-server</module>
         <module>dubbo-learning-echo-annotation-client</module>
+        <module>api-echo-server</module>
+        <module>api-echo-client</module>
     </modules>
 
 
