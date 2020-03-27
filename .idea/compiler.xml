@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-learning-echo-annotation-client" />
+        <module name="dubbo-learning-echo-annotation-server" />
         <module name="dubbo-learning-echo-api" />
         <module name="dubbo-learning-echo-client" />
         <module name="dubbo-learning-echo-server" />
-        <module name="dubbolearningechoannotationclient" />
-        <module name="dubbolearningechoannotationserver" />
         <module name="dubbolearningechoapi" />
         <module name="dubbolearningechoserver" />
         <module name="dubbolearningsourcecoderead" />
