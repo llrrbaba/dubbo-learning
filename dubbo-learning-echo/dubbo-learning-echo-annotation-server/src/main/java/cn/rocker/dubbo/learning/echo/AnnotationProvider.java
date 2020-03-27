@@ -45,7 +45,7 @@ public class AnnotationProvider {
             registryConfig.setProtocol("zookeeper");
             // TODO czc zookeeper一个集群，多个节点，怎么设置？
             // TODO czc zookeeper多个集群，多个节点，怎么设置？
-            registryConfig.setAddress("192.168.60.131");
+            registryConfig.setAddress("192.168.60.133");
             registryConfig.setPort(2181);
             return registryConfig;
         }
